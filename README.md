@@ -19,4 +19,7 @@ Usage:
 ``` Shell
 sudo python rPiEinkQR.py
 ```
-  
+
+Some pages for reading from a barcode scanner:
+https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=55100
+
