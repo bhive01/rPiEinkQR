@@ -17,6 +17,6 @@ Below are the require libraries for getting started. ImageMagick will install a 
 	
 Usage:
 ``` Shell
-sudo python qr2screen.py
+sudo python rPiEinkQR.py
 ```
   
