@@ -25,12 +25,12 @@ while True:
 			im = Image.open(imgName)
 			
 			#put together system command to pad picture with white pixels  
-			convertname = "convert " + imgName + " -background white -gravity center -extent 264x176 "+ imgName
+			convertname = "convert " + imgName + " -background white -gravity east -extent 264x176 "+ imgName
 			#send assembled system command
 			os.system(convertname)
 			
 			#add label to image
-			convertlabel = "convert " + imgName + " -rotate -90 -gravity South -pointsize 20  -font 'FreeMono-Bold' -annotate +0+2 \""+ usercmd + "\"" " -rotate 90 " + imgName
+			convertlabel = "convert " + imgName + " -rotate -90 -gravity South -pointsize 20 -font 'FreeMono-Bold' -annotate +0+2 \""+ usercmd + "\"" " -rotate 90 " + imgName
 			print(convertlabel)
 			os.system(convertlabel)
 			
