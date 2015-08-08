@@ -1,5 +1,6 @@
-import sys, os, time
-from PIL import Image
+import sys
+import os
+import time
 from PIL import Image
 from PIL import ImageOps
 from EPD import EPD
