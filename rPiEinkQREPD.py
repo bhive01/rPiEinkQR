@@ -1,5 +1,6 @@
-import sys, os, time
-from PIL import Image
+import sys
+import os
+import time
 from PIL import Image
 from PIL import ImageOps
 from EPD import EPD
@@ -8,7 +9,7 @@ from EPD import EPD
 oldcmd = ""
 
 #initiate epd element
-epd = EPD()
+epd = EPD([path='/dev/epd'], [auto=true])
 
 
 while True:
@@ -47,7 +48,7 @@ while True:
 			im = ImageOps.grayscale(im)
 			
 			#clear epd 
-		    epd.clear()
+			epd.clear()
 			
 			#display it!
 			epd.display(im)
