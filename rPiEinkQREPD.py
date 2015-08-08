@@ -47,7 +47,7 @@ while True:
 			im = ImageOps.grayscale(im)
 			
 			#clear epd 
-		    epd.clear()
+			epd.clear()
 			
 			#display it!
 			epd.display(im)
