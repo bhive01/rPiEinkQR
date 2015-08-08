@@ -9,7 +9,7 @@ from EPD import EPD
 oldcmd = ""
 
 #initiate epd element
-epd = EPD([path='/dev/epd'], [auto=true])
+epd = EPD()
 
 
 while True:
