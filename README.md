@@ -14,6 +14,7 @@ Below are the require libraries for getting started. ImageMagick will install a 
   * `sudo apt-get install libfuse-dev`
 * [EPD driver] (https://github.com/embeddedartists/gratis)
   * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
+  * For usage and tests: https://github.com/repaper/gratis/tree/master/PlatformWithOS
 
 To Test EPD:
 ``` Shell
