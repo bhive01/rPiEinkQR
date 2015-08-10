@@ -9,11 +9,11 @@ Below are the require libraries for getting started. ImageMagick will install a 
 * [ImageMagick](http://www.imagemagick.org/)
   * `sudo apt-get install imagemagick`
 * [git](http://github.com)
-	* `sudo apt-get install git` 
+  * `sudo apt-get install git` 
 * [LibFUSE Driver](https://www.gnu.org/software/hurd/hurd/libfuse.html)
-	*`sudo apt-get install libfuse-dev`
+  * `sudo apt-get install libfuse-dev`
 * [EPD driver] (https://github.com/embeddedartists/gratis)
-	*In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
+  * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
 
 To Test EPD:
 ``` Shell
