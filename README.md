@@ -8,13 +8,15 @@ Below are the require libraries for getting started. ImageMagick will install a 
   * `sudo apt-get install qrencode`
 * [ImageMagick](http://www.imagemagick.org/)
   * `sudo apt-get install imagemagick`
-* [git](http://github.com)
-  * `sudo apt-get install git` 
 * [LibFUSE Driver](https://www.gnu.org/software/hurd/hurd/libfuse.html)
   * `sudo apt-get install libfuse-dev`
+* [git](http://github.com)
+  * `sudo apt-get install git`
 * [EPD driver] (https://github.com/embeddedartists/gratis)
   * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
-  * For usage and tests: https://github.com/repaper/gratis/tree/master/PlatformWithOS
+
+# EPD Tests and Usage
+From: https://github.com/repaper/gratis/tree/master/PlatformWithOS
 
 To Test EPD:
 ``` Shell
@@ -33,13 +35,13 @@ Usage:
 ``` Shell
 sudo python rPiEinkQREPD.py
 ```
-
-Some pages for reading from a barcode scanner:
+## Barcode Scanners
+Most barcode readers are seen as keyboards by the OS. The important part is to have it set to add a newline after each read. This newline will cause the program to proceed with the code. If there are issues, see the following help forums:
 https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=55100
 
-
-
-Using ePyper (not currently working):
+## ePyper
+ePpyper is a library built in python to write to these displays, but for some reason it no longer works with the display. It doesn't require installation of the EPD driver because it has its own built-in. I believe it might have been built for the previous version of the screen, which might explain why it doesn't write to the screen itself. 
+### Epyper Installation
 * [pip](https://pip.pypa.io/en/stable/) (Python Package Installer)
     * Python 2
       * `sudo apt-get install python-pip`
