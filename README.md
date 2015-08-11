@@ -1,5 +1,5 @@
 # rPiEinkQR
-Scan a code or input it via command line and a QR Code is generated, resized, and output to the Embedded Artists 2.7" screen from a raspberry pi
+Scan a code or input it via command line and a QR Code is generated, resized, and output to the [Embedded Artists 2.7" screen] (http://www.embeddedartists.com/products/displays/lcd_27_epaper.php) from a raspberry pi
 
 # Starting from scratch? 
 Below are the require libraries for getting started. ImageMagick will install a large amount of libraries to pull from for all different types of images. epyper will pull in Wiring and Pillow as requirements through pip. 
