@@ -41,7 +41,7 @@ sudo ./driver-common/epd_test 2.7
 To Install EPD Driver:
 ``` Shell
 sudo service epd-fuse start	# Start epd-fuse
-ls -l /dev/epd			# Install epd directories/device
+ls -l /dev/epd			# Check installation of epd, folder should contain many things.
 
 sudo make rpi			# make all targets
 sudo make rpi-install   	# install to run on boot
