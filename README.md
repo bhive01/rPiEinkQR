@@ -14,6 +14,8 @@ Below are the require libraries for getting started. ImageMagick will install a 
   * `sudo apt-get install git`
 * [EPD driver] (https://github.com/embeddedartists/gratis)
   * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
+* [This repository] (https://github.com/bhive01/rPiEinkQR)
+  * In a suitable directory `git clone https://github.com/bhive01/rPiEinkQR.git`
 
 # EPD Tests and Usage
 From: https://github.com/repaper/gratis/tree/master/PlatformWithOS
