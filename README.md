@@ -20,12 +20,12 @@ Below are the required libraries for getting started. ImageMagick will install a
   * `sudo raspi-config`
   * 8 Advanced Options > A6 SPI > Enable > Yes (load by default) > OK > Finish
   * `sudo reboot`
+* Python Development
+  * `sudo apt-get install python-dev`
 * [pip](https://pip.pypa.io/en/stable/) (Python Package Installer)
   * Python 2
     * `sudo apt-get install python-pip` #will install python 2 if you don't have it
   * Python 3? [Visit here](https://www.raspberrypi.org/documentation/linux/software/python.md)
-* Python Development
-  * `sudo apt-get install python-dev`
 * [PIL](https://python-pillow.github.io/) Python Imaging Library
   * `pip install Pillow`
 
