@@ -16,7 +16,7 @@ Below are the require libraries for getting started. ImageMagick will install a 
   * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
 * [This repository] (https://github.com/bhive01/rPiEinkQR)
   * In a suitable directory `git clone https://github.com/bhive01/rPiEinkQR.git`
-* Turn on SPI interface
+* [Turn on SPI interface] (https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md)
   * `sudo raspi-config`
   * 8 Advanced Options > A6 SPI > Enable > Yes (load by default) > OK > Finish
   * `sudo reboot`
