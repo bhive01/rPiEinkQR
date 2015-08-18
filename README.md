@@ -16,6 +16,10 @@ Below are the require libraries for getting started. ImageMagick will install a 
   * In a suitable directory `git clone https://github.com/embeddedartists/gratis.git`
 * [This repository] (https://github.com/bhive01/rPiEinkQR)
   * In a suitable directory `git clone https://github.com/bhive01/rPiEinkQR.git`
+* Turn on SPI interface
+  * `sudo raspi-config`
+  * 8 Advanced Options > A6 SPI > Enable > Yes (load by default) > OK > Finish
+  * `sudo reboot`
 
 # EPD Tests and Usage
 From: https://github.com/repaper/gratis/tree/master/PlatformWithOS
@@ -23,8 +27,8 @@ From: https://github.com/repaper/gratis/tree/master/PlatformWithOS
 To Test EPD:
 ``` Shell
 sudo modprobe spi-bcm2708
-make rpi-epd_test
-sudo ./driver-common/epd_test
+make rpi-epd_test COG_VERSION=V2
+sudo ./driver-common/epd_test 2.7
 ```
 To Install EPD Driver:
 ``` Shell
